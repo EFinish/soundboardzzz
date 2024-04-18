@@ -34,17 +34,17 @@ class MainActivity : ComponentActivity() {
                             horizontalArrangement = Arrangement.SpaceEvenly,
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            SoundButton(imageResourceId = R.drawable.smile_emoji)
-                            SoundButton(imageResourceId = R.drawable.joy_emoji)
-                            SoundButton(imageResourceId = R.drawable.thinky_emoji)
+                            SoundButton(imageResourceId = R.drawable.smile_emoji, soundResourceId = R.raw.giggle)
+                            SoundButton(imageResourceId = R.drawable.joy_emoji, soundResourceId = R.raw.laughing)
+                            SoundButton(imageResourceId = R.drawable.thinky_emoji, soundResourceId = R.raw.thinky)
                         }
                         Row(
                             horizontalArrangement = Arrangement.SpaceEvenly,
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            SoundButton(imageResourceId = R.drawable.firetruck_emoji)
-                            SoundButton(imageResourceId = R.drawable.boat_emoji)
-                            SoundButton(imageResourceId = R.drawable.potato_emoji)
+                            SoundButton(imageResourceId = R.drawable.firetruck_emoji, soundResourceId = R.raw.firetruck)
+                            SoundButton(imageResourceId = R.drawable.boat_emoji, soundResourceId = R.raw.boat)
+                            SoundButton(imageResourceId = R.drawable.potato_emoji, soundResourceId = R.raw.farming)
                         }
 
                     }
